@@ -111,6 +111,15 @@ body{background:radial-gradient(circle at 7% 4%,rgba(58,111,151,.08),transparent
 @media(max-width:900px){.mind-grid{grid-template-columns:1fr;gap:38px}}@media(max-width:600px){.mind-section{padding:65px 0}.mind-benefits{grid-template-columns:1fr}.mind-benefits article{min-height:auto}}
 </style><style>
 .adults-detail{padding:82px 0 92px;background:linear-gradient(180deg,#f4f8fa,#fff)}.companion-consolidated{margin-top:30px;background:#fff;border:1px solid #d8e3e7;border-radius:26px;overflow:hidden;box-shadow:0 18px 48px rgba(19,40,63,.075)}.companion-intro{padding:38px 40px 32px;background:linear-gradient(120deg,#eef8f6,#f5f7fb 55%,#fff8ed);border-bottom:1px solid #dce5e8}.companion-intro h3{font-size:clamp(2rem,3.8vw,3.5rem);line-height:1.05;letter-spacing:-.04em;max-width:900px;margin:8px 0 17px;color:#10283f}.companion-lead{max-width:1050px;font-size:1.05rem;line-height:1.75;color:#536779}.companion-pillars{display:grid;grid-template-columns:repeat(4,1fr)}.companion-pillars article{padding:30px 27px 28px;border-right:1px solid #dde6e9;min-height:350px}.companion-pillars article:last-child{border-right:0}.companion-pillars article:nth-child(2){background:#f6fbfa}.companion-pillars article:nth-child(3){background:#f7f6fc}.companion-pillars article:nth-child(4){background:#fffaf1}.pillar-no{font-size:.72rem;font-weight:900;color:#648097}.companion-pillars h4{font-size:1.2rem;margin:25px 0 9px;color:#10283f}.companion-pillars p{font-size:.88rem;line-height:1.55;color:#607486;min-height:68px}.companion-pillars ul{padding-left:18px;margin:17px 0 0}.companion-pillars li{font-size:.87rem;line-height:1.55;color:#3e5264;margin:5px 0}.companion-bottom{padding:24px 30px;display:flex;align-items:center;justify-content:space-between;gap:30px;background:#f9fbfc;border-top:1px solid #dde6e9}.healthy-note{max-width:820px;font-size:.8rem;line-height:1.55;color:#5a6e7e;border-left:3px solid #247b72;padding-left:13px}.companion-open{white-space:nowrap;background:#10283f!important;color:#fff!important;border-color:#10283f!important}@media(max-width:1000px){.companion-pillars{grid-template-columns:1fr 1fr}.companion-pillars article:nth-child(2){border-right:0}.companion-pillars article{border-bottom:1px solid #dde6e9}.companion-bottom{align-items:flex-start;flex-direction:column}}@media(max-width:620px){.companion-intro{padding:28px 22px}.companion-pillars{grid-template-columns:1fr}.companion-pillars article{border-right:0;min-height:auto}.companion-bottom{padding:22px}.companion-open{width:100%}}
+</style><style>
+.active-ageing-merged{margin:20px 0 22px;padding:20px 20px 18px;border-radius:17px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.24)}
+.two-main-points{list-style:none;margin:0;padding:0;display:grid;gap:18px}
+.two-main-points>li{position:relative;padding-left:25px}
+.two-main-points>li:before{content:"•";position:absolute;left:2px;top:-2px;color:#baf4e7;font-size:1.45rem;font-weight:900}
+.two-main-points>li+li{padding-top:17px;border-top:1px solid rgba(255,255,255,.19)}
+.two-main-points>li+li:before{top:15px}
+.two-main-points strong{display:block;color:#fff;font-size:1rem;line-height:1.35;margin-bottom:6px}
+.two-main-points span{display:block;color:#e9f6f3;font-size:.78rem;line-height:1.55}
 </style></head>
 <body id="top">
 <a class="skip" href="#main">Skip to main content</a>
@@ -160,10 +169,18 @@ body{background:radial-gradient(circle at 7% 4%,rgba(58,111,151,.08),transparent
 <div class="panel-symbol" aria-hidden="true">◎</div>
 <span class="tag">Adults · Seniors · Active Ageing · Lifelong Learning</span>
 <h3>One Stop Companion</h3>
-<p>A versatile companion for adults and seniors — supporting everyday living, active ageing, continuous learning and leisure, whether enjoying activities indoors or heading out around Singapore.</p>
-<div class="active-ageing-split">
- <div class="lifestyle-block indoor"><span class="life-icon" aria-hidden="true">⌂</span><div><strong>Stay Active & Curious Indoors</strong><p>Exercise the body, challenge the mind and keep learning.</p><ul><li>Home exercises</li><li>Cognitive games &amp; jigsaw</li><li>Learn a new language</li><li>Continuous learning</li></ul></div></div>
- <div class="lifestyle-block outdoor"><span class="life-icon" aria-hidden="true">↗</span><div><strong>Stay Active & Connected Outdoors</strong><p>Discover places, activities and everyday experiences around Singapore.</p><ul><li>Shopping &amp; malls</li><li>Singapore attractions</li><li>What’s On activities</li><li>Getting around</li></ul></div></div>
+<p>A versatile companion for adults and seniors — helping users stay informed, plan the day, keep learning and stay active, whether enjoying activities indoors or heading out around Singapore.</p>
+<div class="active-ageing-merged">
+ <ul class="two-main-points">
+  <li>
+   <strong>Stay Active &amp; Curious Indoors</strong>
+   <span>Home exercises · Cognitive games &amp; jigsaw · Learn a new language · Continuous learning</span>
+  </li>
+  <li>
+   <strong>Stay Active &amp; Connected Outdoors</strong>
+   <span>Shopping &amp; malls · Singapore attractions · What’s On activities · Getting around</span>
+  </li>
+ </ul>
 </div>
 <a class="btn" href="https://jjkwan118-glitch.github.io/OneStopCompanion/" target="_blank" rel="noopener noreferrer">Explore One Stop Companion <span class="sr-only">(opens in new tab)</span> ↗</a>
 </article>
@@ -186,7 +203,7 @@ body{background:radial-gradient(circle at 7% 4%,rgba(58,111,151,.08),transparent
 <div class="companion-consolidated">
 <div class="companion-intro"><p class="eyebrow">Everyday life · Learning · Leisure · Active ageing</p><h3>Practical digital support for living, learning and staying active.</h3><p class="companion-lead">One Stop Companion brings useful everyday functions together with opportunities to keep the mind engaged, continue learning, stay physically active and explore what Singapore has to offer. Designed for <strong>adults and seniors</strong>, with readable controls, straightforward navigation and accessibility options.</p></div>
 <div class="companion-pillars">
-<article><span class="pillar-no">01</span><h4>Everyday Support</h4><p>Useful functions for organising daily life and staying connected.</p><ul><li>Medicine reminders</li><li>Appointment tracking</li><li>Emergency &amp; family contacts</li><li>Accessibility settings</li></ul></article>
+<article><span class="pillar-no">01</span><h4>Everyday Support</h4><p>Useful functions for organising daily life and staying connected.</p><ul><li>Medicine reminders</li><li>Appointment tracking</li><li>Emergency &amp; family contacts</li><li>Accessibility settings</li><li>News updates</li><li>Weather forecasts</li></ul></article>
 <article><span class="pillar-no">02</span><h4>Challenge the Mind</h4><p>Enjoy mentally engaging activities as part of a broader healthy-ageing lifestyle.</p><ul><li>Cognitive games</li><li>Jigsaw puzzles</li><li>Attention &amp; reasoning activities</li><li>Problem-solving through play</li></ul></article>
 <article><span class="pillar-no">03</span><h4>Keep Learning &amp; Moving</h4><p>Continue learning new skills while keeping movement part of everyday life.</p><ul><li>Learn a new language</li><li>Lifelong learning activities</li><li>Home exercise features</li><li>Simple accessible guidance</li></ul></article>
 <article><span class="pillar-no">04</span><h4>Explore &amp; Stay Engaged</h4><p>For adults and seniors who enjoy getting out, discovering places and staying involved.</p><ul><li>Shopping &amp; malls</li><li>Singapore attractions</li><li>What’s On activities</li><li>Getting around</li></ul></article>
